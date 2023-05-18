@@ -1,0 +1,33 @@
+
+numeros = [3,5,2,8,1,9,4,2,34,2,5,6,7,3,4,4,6,3]
+pares = []
+impares = []
+
+for numero in numeros:
+    if ( numero % 2 == 0 ):  
+        print(numero)
+        pares.append (numero)
+    else: 
+        impares.append (numero)
+print(pares)
+print(impares)
+
+print(f"en la lista hay {len(pares)} pares y {len(impares)} impares")
+
+if (len(pares) == len(impares)):
+    print(f"son iguales")
+elif(len(pares) > len(impares)):
+    print(f"la lista par es mayor")
+else:
+    print(f"la lista impar es mayor")
+
+
+
+
+
+
+
+
+
+
+
